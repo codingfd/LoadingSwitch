@@ -1,11 +1,11 @@
-import 'package:example/page/test_page.dart';
-import 'package:example/page/text_loading_option.dart';
-import 'package:example/page/text_loading_page.dart';
+
 import 'package:flutter/material.dart';
 import 'package:loading_switch/loading_switch.dart';
 import 'page/default_loading_page.dart';
 import 'page/default_error_page.dart';
 import 'page/default_empty_page.dart';
+import 'page/test_page.dart';
+import 'page/text_loading_option.dart';
 
 void main() {
   LoadingSwitch.defaultOption = LoadingOption(
