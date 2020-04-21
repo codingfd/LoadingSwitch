@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 import 'package:loading_switch/loading_switch.dart';
 import 'page/default_loading_page.dart';
@@ -103,6 +102,7 @@ class ExamplePage extends StatelessWidget {
 
     switch (index) {
       case 1:
+
         ///根据全局配置初始化
         return LoadingSwitch(
           controller: controller,
@@ -114,6 +114,7 @@ class ExamplePage extends StatelessWidget {
         );
 
       case 2:
+
         ///根据option初始化
         return LoadingSwitch(
           controller: controller,
@@ -125,6 +126,7 @@ class ExamplePage extends StatelessWidget {
           option: TextLoadingOption(),
         );
       case 3:
+
         ///单独页面配置
         return LoadingSwitch(
           controller: controller,
@@ -137,6 +139,7 @@ class ExamplePage extends StatelessWidget {
           loading: DefaultLoadingPage(),
         );
       case 4:
+
         ///未定义枚举值的页面
         controller.switchStatus("test");
         return LoadingSwitch(
