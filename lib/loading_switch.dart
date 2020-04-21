@@ -111,6 +111,7 @@ class LoadingOption {
 class LoadingSwitchController {
   ///加载状态
   dynamic status;
+
   ///刷新方法
   VoidCallback _refresh;
 
