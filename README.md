@@ -10,7 +10,7 @@ Flutter加载切换库
 ### 添加依赖
 ```yaml
 dependencies:
-  loading_switch: ^1.x
+  loading_switch: ^0.0.1
 ```
 ### 如何使用
 

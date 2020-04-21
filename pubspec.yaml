@@ -1,8 +1,8 @@
 name: loading_switch
 description: loading_switch package for flutter,you can use it to swtich loading page status(loading、content、error、empty or more)
-version: 1.0.0
+version: 0.0.1
 author: codingfd<codingfd.zhou@gmail.com>
-homepage: "https://github.com/codingfd/loading_switch"
+homepage: "https://github.com/codingfd/LoadingSwitch.git"
 
 environment:
   sdk: ">=2.1.0 <3.0.0"
