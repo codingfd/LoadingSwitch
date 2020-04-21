@@ -38,15 +38,16 @@ LoadingSwitch.defaultOption
 ```
 * 初始化LoadingSwitch时配置`option`属性
 * 初始化LoadingSwitch时配置`loading` `error`等属性
-<br/>
-优先级：
-*  单状态页面 》 配置 》全局配置  
-*  `loading` > `option` > `defaultOption`
+<br>
+优先级：<br>
+ `loading` `error`等   >   `option`    >  `defaultOption`
+
+
 <br>
 具体设置请参考example
 
 
-###  Example
+##  Example
 
 ```
 cd ./example
